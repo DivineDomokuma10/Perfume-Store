@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(30, 38%, 92%);
+}
+main{
+    width: 42%;
+    height: 65%;
+    display: flex;
+    /* background: red; */
+}
+section{
+    width: 50%;
+    height: 100%;
+    /* background: yellow; */
+}
+section img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+aside{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(0, 0%, 100%);
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+article{
+    width: 85%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: red; */
+}
+#first-p{ 
+    font-size: 16px;
+    font-family: calibri;
+    color: hsl(228, 12%, 48%);
+}
+#first-h1{
+    font-weight: 700;
+    color:  hsl(212, 21%, 14%);
+    font-size: 32px;
+}
+#second-p{
+    font-size: 16px;
+    font-family: calibri;
+    color: hsl(228, 12%, 48%);
+}
+#money{
+    width: 76%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: red; */
+}
+#money h1{
+    font-size: 37px;
+    font-family: calibri;
+    color:  hsl(158, 36%, 37%);
+}
+#money p{
+    font-size: 16px;
+    font-family: calibri;
+    color: hsl(228, 12%, 48%);
+    font-weight: lighter;
+}
+#line{
+    width: 4.5%;
+    left: 61.1%;
+    top: 64.72%;
+    height: .3%;
+    background: hsl(228, 12%, 48%);
+    position:  absolute;
+}
+button{
+    width: 100%;
+    height: 12%;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(158, 36%, 37%);
+}
+button:hover{
+    background: hsl(158, 42%, 27%);
+}
+button div{
+    width: 45%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button div img{
+    width: 13%;
+    height: 60%;
+}
+button div p{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: calibri;
+    color: hsl(0, 0%, 100%);
+}

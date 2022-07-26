@@ -1,0 +1,49 @@
+@media(orientation: portrait){
+    body{
+        max-width: 100vw;
+        height: 100vh;
+    }
+    main{
+        width: 90%;
+        height: 92%;
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+        height: 40%;
+    }
+    section img{
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+        border-bottom-left-radius: 0px;
+    }
+    aside{
+        width: 100%;
+        height: 600%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 13px;
+        border-bottom-left-radius: 13px;
+    }
+    article{
+        width: 88%;
+        height: 85%;
+    }
+    #first-p{ 
+        font-size: 17px;
+    }
+    #first-h1{
+        font-weight: 700;
+        font-size: 33px;
+    }
+    #second-p{
+        font-size: 16px;
+    }
+    #line{
+        width: 20%;
+        left: 53.5%;
+        top: 81.2%;
+        height: .22%;
+    }
+
+}
